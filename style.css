@@ -42,9 +42,17 @@ body {
     text-align: center;
 }
 
+
+
 .left-container p {
-    font-size : 16px;
+    font-size: 14px;
+    margin-top: 8px;
+    color : #e0e0ff;
     opacity: 0.8;
+    
+}
+.left-container .result-title{
+    font-weight: bold;
 }
 
 .marks-container {
@@ -73,12 +81,7 @@ body {
     margin-top: 10px;
 }
 
-.left-container p {
-    font-size: 14px;
-    margin-top: 8px;
-    color : #e0e0ff;
 
-}
 
 
 .right-container {
@@ -150,14 +153,17 @@ body {
     .card {
         flex-direction: row;
         max-width : 700px;
-        height : 400px;
+        height : 430px;
     }
 
     .left-container .right-container {
         flex: 1;
     }
 
-
+    .left-container .result-title {
+        font-size: 18px;
+    
+    }
     .left-container {
         border-radius: 0 20px 20px 0;
         display: flex;
@@ -190,9 +196,7 @@ body {
     .right-container .summary-item {
         width: 300px;
     }
-    .continue-btn {
-        margin-bottom: 20px;
-    }
+    
    
   
 }
